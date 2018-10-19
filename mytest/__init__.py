@@ -1,6 +1,12 @@
-from chatbot import chatbot
+class Student(object):
+    dd =' dasd'
+    def __init__(self, name):
+        self.name = name
 
+    # def __call__(self,dd):
+    #     print('My name is %s.' % dd)
+    #
 
-if __name__ == '__main__':
-    chatbot = chatbot.Chatbot()
-    chatbot.main()
+s = Student('dd')
+#
+# s('duanyuefeng')
