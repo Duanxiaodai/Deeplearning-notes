@@ -8,5 +8,5 @@ class Student(object):
     #
 
 s = Student('dd')
-#
+
 # s('duanyuefeng')
